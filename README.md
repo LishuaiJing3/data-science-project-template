@@ -46,3 +46,11 @@ To enable the code coverage reports, see [here](https://fpgmaas.github.io/cookie
 ---
 
 Repository initiated with [fpgmaas/cookiecutter-poetry](https://github.com/fpgmaas/cookiecutter-poetry).
+
+## start project in dev container in VS code
+- F1 or ctl + shift + p, search Dev Containers: clone repository in named volumns. 
+- If you have github, type in the address for your github repo. If you use azure devops, type the repo name correspondingly.  
+- create a new volumn-> you can come up your own name as you wish (e.g. ds-template)
+- then write the target folder name. for example the data science project name that you use
+- If you do not have a dev container config file defined, you can choose to use a template vs code provide, for example python with poetry or just pythpon. Then you can install other dependencies that you wish to have. 
+- then the build process will start. 
